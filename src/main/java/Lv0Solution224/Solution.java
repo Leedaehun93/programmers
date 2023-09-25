@@ -1,10 +1,10 @@
-package Solution224;
+package Lv0Solution224;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * packageName : Solution224
+ * packageName : Lv0Solution224
  * fileName : Solution
  * author : L.DH
  * date : 2023-09-25
@@ -17,12 +17,11 @@ import java.util.List;
  * 2023-09-25         L.DH         최초 생성
  */
 public class Solution {
-//    /**
-//     * TODO : 문자 리스트를 문자열로 변환하기
-//     *
-//     * @param arr ["a","b","c"]
-//     * @return "abc"
-//     */
+    /**
+     * TODO : 문자열 출력하기
+     * 입력 : HelloWorld!
+     * 출력 : HelloWorld!
+     */
 //    public String solution1(String[] arr) {
 //        String answer = ""; // 리턴값(내보내기 결과값)
 //        for (int i = 0; i < arr.length; i++) {
@@ -32,30 +31,31 @@ public class Solution {
 //    }
 
     /**
-     * 정수 num과 n이 매개 변수로 주어질 때, num이 n의 배수이면 1을 return n의 배수가 아니라면 0을 return하도록 solution 함수를 완성해주세요.
-     * 입출력 예
-     * num	n	result
-     * 98	2	1
-     * 34	3	0
-     * 입출력 예 #1
-     * <p>
-     * 98은 2의 배수이므로 1을 return합니다.
-     * 입출력 예 #2
-     * <p>
-     * 32는 3의 배수가 아니므로 0을 return합니다.
+     * TODO : 배수
      */
-    public int solution(int num, int n) {
-        int answer;
-        if (num % n == 0) {
-            answer = 1;
-        } else {
-            answer = 0;
-        }
-        return answer;
-    }
+//    public int solution(int num, int n, int m) {
+//        int answer = num % n == 0 && num % m == 0 ? 1 : 0;
+//        int answer;
+//        if (num % n == 0 && num % m == 0) {
+//            answer = 1;
+//        } else {
+//            answer = 0;
+//        }
+//        return answer;
+//    }
 
     /**
-     * 배열 만들기 1
+     * TODO : 홀짝에 따라 다른 값 반환하기
+     */
+//    public int solution6(int n) {
+//        if(n % 2 == 1)
+//            return  (n+1)/2*((n + 1)/2) ;
+//        else
+//            return   n*(n+1)*(n+2)/6;
+//    }
+
+    /**
+     * TODO : 배열 만들기 1
      * 정수 n과 k가 주어졌을 때,
      * 1 이상 n이하의 정수 중에서
      * k의 배수를 오름차순으로 저장한 배열을 return 하는 solution 함수를 완성해 주세요.
@@ -84,4 +84,17 @@ public class Solution {
 //        return answer;
 //    }
 
+    /**
+     * TODO : 조건 문자열
+     */
+    public int solution7(String ineq, String eq, int n, int m) {
+        int answer = 0;
+
+    if (n ineq m && ){
+        answer = 1;
+    } else {
+        answer = 0;
+    }
+        return answer;
+    }
 }   // end of class
